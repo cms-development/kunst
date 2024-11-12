@@ -7,7 +7,7 @@ Forked from [KUNST](https://github.com/ishetnogferre/KUNST) by [ishetnogferre](h
 ## Cloning
 
 ```bash
-git clone
+git clone https://github.com/cms-development/kunst.git
 ```
 
 ## Installation with DDEV
