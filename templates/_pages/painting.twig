@@ -1,0 +1,68 @@
+{# ========================================================================== #}
+{# Props #}
+{# ========================================================================== #}
+{% set title = entry.title|default("") %}
+
+{# TODO: make the painter text field reusable with another field #}
+{% set painter = entry.painter|default("") %}
+
+{% set img = entry.teaserImage.collect().one()|default({}) %}
+{% set paintingSize = entry.paintingSize|default("") %}
+{% set paintingMedium = entry.paintingMedium|default("") %}
+{% set paintingDate = entry.paintingDate|default("") %}
+
+{# ========================================================================== #}
+{# Template #}
+{# ========================================================================== #}
+{% extends "_layout.twig" %}
+
+{% block header %}
+  <div class="bg-black text-white">
+    <div class="container mx-auto px-4 py-16 flex gap-11">
+      <div class="lg:w-1/3">
+        <h1 class="font-black text-4xl">
+          {{- title -}}
+        </h1>
+
+        <h2 class="font-bold text-2xl mb-11">
+          {{- painter -}}
+        </h2>
+
+        <div class="divide-y divide-solid divide-white py-2">
+          <p class="py-1 border-t border-solid border-white">
+            <span class="font-bold">{{ "Afmetingen:" }}</span> {{ paintingSize -}}
+          </p>
+
+          <p class="py-1">
+            <span class="font-bold">{{ "Medium:" }}</span> {{ paintingMedium -}}</p>
+
+          <p class="py-1 border-b border-solid border-white">
+            <span class="font-bold">{{ "Datum:" }}</span> {{ paintingDate -}}</p>
+        </div>
+      </div>
+
+      <div class="lg:w-2/3">
+        {% if img %}
+          <img src="{{ img.url }}" alt="{{ img.alt ?? img.title }}">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block content %}
+  <section class="pt-10 pb-12">
+    <div class="container mx-auto px-4">
+      {# TODO: add blog like content: text, quote, image, ... #}
+
+    </div>
+  </section>
+
+  <section class="bg-gray pt-12 pb-6">
+    <div class="container mx-auto px-4">
+      {# TODO: add related paintings by painter #}
+
+    </div>
+  </section>
+{% endblock %}

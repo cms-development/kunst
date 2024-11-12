@@ -1,0 +1,40 @@
+dateModified: 1731435488
+email:
+  fromEmail: development@littlemissrobot.com
+  fromName: KUNST
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Afbeeldingen
+    settings:
+      path: '@assetsBasePath/images'
+    type: craft\fs\Local
+    url: '@assetsBaseUrl/images'
+meta:
+  __names__:
+    4b2e6edb-4a59-4c2b-a475-59fe66c73034: Afbeeldingen # Afbeeldingen
+    9ae3f6cb-1d68-431a-ab0a-b7b322eabb59: Afmetingen # Afmetingen
+    9cdb582a-b08c-41f3-aae9-9c4b5bb2660c: Standaard # Standaard
+    45b03942-6780-4f10-bb04-048c707b19ea: Datum # Datum
+    75d8c9fc-8865-4fd4-a80a-a6582ca3337b: KUNST # KUNST
+    207cd61b-fc98-4ed4-aef6-f5459102b87f: Simple # Simple
+    812f608e-e447-45bc-a619-84eba1fb6022: Schilderij # Schilderij
+    3496e3e9-5b48-4d87-9caf-2f8a4c785c39: KUNST # KUNST
+    4351dd60-75ce-4f4e-afab-4e663ab6256e: Schilder # Schilder
+    85861c1a-d299-4525-8e77-73a3c9f55196: 'Teaser afbeelding' # Teaser afbeelding
+    b311bb41-dcab-4994-af13-3a5c9d6b8d32: Editors # Editors
+    dbc2d3d7-6e93-476f-8e8e-76c1c49c3618: Home # Home
+    e2f92cae-6cbb-44a3-930c-579e4740c74c: Home # Home
+    f2ed3384-c37b-4323-bc28-361c87b544ca: Medium # Medium
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: pro
+  live: true
+  name: KUNST
+  schemaVersion: 5.5.0.0
+  timeZone: America/Los_Angeles

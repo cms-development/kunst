@@ -1,0 +1,14 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - e2f92cae-6cbb-44a3-930c-579e4740c74c # Home
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  3496e3e9-5b48-4d87-9caf-2f8a4c785c39: # KUNST
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/home.twig
+    uriFormat: __home__
+type: single

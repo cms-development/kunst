@@ -1,0 +1,105 @@
+fieldLayouts:
+  4ceb5ab5-0ce1-44f8-bd59-90781640bc21:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a1c96c6c-6f22-40f6-ba45-0dc4931ee80a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4351dd60-75ce-4f4e-afab-4e663ab6256e # Schilder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 47c0b555-bdee-425e-a16f-5255b53e78ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85861c1a-d299-4525-8e77-73a3c9f55196 # Teaser afbeelding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67895ae1-d5b6-44b7-8639-e4a293e42f3c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ae3f6cb-1d68-431a-ab0a-b7b322eabb59 # Afmetingen
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e834c59-f7f8-4fd7-a3b3-1187a3fc96e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f2ed3384-c37b-4323-bc28-361c87b544ca # Medium
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94395324-589d-44f5-b4c4-b4bd71aa1128
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45b03942-6780-4f10-bb04-048c707b19ea # Datum
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94790116-582f-4db9-b895-36dfb871d449
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 5ae6040f-290a-41aa-9d96-7c05ac6c1703
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Standaard
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

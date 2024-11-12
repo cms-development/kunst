@@ -1,0 +1,45 @@
+fieldLayouts:
+  557ba7d9-e7b5-4049-b831-403f9d7b604d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0db25355-e16c-4173-83c3-0b6d30f97664
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: c295f55a-d4d1-4c61-8d3f-87547f138fad
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

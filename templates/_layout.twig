@@ -1,0 +1,90 @@
+{# ========================================================================== #}
+{# Props #}
+{# ========================================================================== #}
+{% set logo %}
+    <a href="{{ alias('@web') }}" class="text-2xl font-black upercase">
+        Kunst
+    </a>
+{% endset %}
+
+{% set copyRightText = " | Made with love by Little Miss Robot & Arteveldehogeschool" %}
+{% set footerLinks = [] %}
+
+{# ========================================================================== #}
+{# Template #}
+{# ========================================================================== #}
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+    <head>
+        <meta charset="utf-8"/>
+        <title>{{ siteName }}</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            black: "#000000",
+                            white: "#FFFFFF",
+                            gray: "#E5E7EB",
+                        }
+                    }
+                }
+            }
+        </script>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+            }
+        </style>
+
+        {% do craft.app.view.registerCssFile('@web/styles.css') %}
+    </head>
+
+    <body>
+        <header>
+            <div class="text-black p-4">
+                <div class="container mx-auto">
+                   {{- logo -}}
+
+                   {# TODO: add navigation #}
+
+                   {# TODO: LEVEL HARD — add multi-language #}
+                   {# Hint: https://craftcms.com/docs/4.x/sites.html #}
+
+                   {# TODO: add button #}
+                </div>
+
+                {# TODO: LEVEL HARD - add breadcrumbs #}
+                {# Hint: Knowledge Base #}
+            </div>
+
+            {% block header %}
+            {% endblock %}
+        </header>
+
+        <main>
+            {% block content %}
+                {# Nothing here, yet! #}
+            {% endblock %}
+        </main>
+
+        <footer class="bg-black text-white py-10">
+            <div class="container px-4 mx-auto">
+                <div class="pb-10">
+                {{- logo -}}
+
+                {# TODO: add address #}
+                </div>
+
+                <div class="border-t border-solid border-white flex justify-between items-center pt-6">
+                    <p>&copy; {{ now|date('Y') }} {{- copyRightText -}}</p>
+
+                    {# TODO: add footer link for Cookies link #}
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: KUNST
+primary: true
+siteGroup: 75d8c9fc-8865-4fd4-a80a-a6582ca3337b # KUNST
+sortOrder: 1

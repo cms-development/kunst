@@ -1,0 +1,26 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 9cdb582a-b08c-41f3-aae9-9c4b5bb2660c # Standaard
+handle: painting
+name: Schilderij
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3496e3e9-5b48-4d87-9caf-2f8a4c785c39: # KUNST
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/painting.twig
+    uriFormat: 'schilderij/{slug}'
+type: channel

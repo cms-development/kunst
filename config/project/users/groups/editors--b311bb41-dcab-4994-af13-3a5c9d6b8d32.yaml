@@ -1,0 +1,35 @@
+description: ''
+handle: editors
+name: Editors
+permissions:
+  - accesscp
+  - accesscpwhensystemisoff
+  - accesssitewhensystemisoff
+  - 'createfolders:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'deleteassets:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'deletepeerassets:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'deletepeercategorydrafts:a21662de-b810-4c6d-b2a6-a89d36ef6fa0'
+  - 'deletepeerentrydrafts:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'deletepeerentrydrafts:dbc2d3d7-6e93-476f-8e8e-76c1c49c3618' # Home
+  - 'editimages:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'editpeerimages:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'replacefiles:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'replacepeerfiles:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'saveassets:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'savecategories:a21662de-b810-4c6d-b2a6-a89d36ef6fa0'
+  - 'saveentries:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'saveentries:dbc2d3d7-6e93-476f-8e8e-76c1c49c3618' # Home
+  - 'savepeerassets:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'savepeercategorydrafts:a21662de-b810-4c6d-b2a6-a89d36ef6fa0'
+  - 'savepeerentries:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'savepeerentrydrafts:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'savepeerentrydrafts:dbc2d3d7-6e93-476f-8e8e-76c1c49c3618' # Home
+  - 'viewassets:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'viewcategories:a21662de-b810-4c6d-b2a6-a89d36ef6fa0'
+  - 'viewentries:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'viewentries:dbc2d3d7-6e93-476f-8e8e-76c1c49c3618' # Home
+  - 'viewpeerassets:4b2e6edb-4a59-4c2b-a475-59fe66c73034' # Afbeeldingen
+  - 'viewpeercategorydrafts:a21662de-b810-4c6d-b2a6-a89d36ef6fa0'
+  - 'viewpeerentries:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'viewpeerentrydrafts:032c7508-f980-4ab4-a4c1-af3940a9ef5a'
+  - 'viewpeerentrydrafts:dbc2d3d7-6e93-476f-8e8e-76c1c49c3618' # Home
